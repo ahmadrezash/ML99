@@ -49,12 +49,11 @@ def PolynomialModel(x: np.array, y: np.array, degree=2):
     import statsmodels.api as sm
 
 
-
 # define a function for other methods like Polynomial
 
 if __name__ == '__main__':
     # Loading Data
-    data = pd.read_csv('./p1/pdData.csv', index_col=0)
+    data = pd.read_csv('../p1/pdData.csv', index_col=0)
 
     Y = data.y
     X = data.drop("y", axis=1)

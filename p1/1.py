@@ -36,8 +36,8 @@ def lreg_model(x, y):
 
 
 if __name__ == '__main__':
-    # Loading Data
-    data = pd.read_csv('./p1/pdData.csv', index_col=0)
+     # Loading Data
+    data = pd.read_csv('pdData.csv', index_col=0)
 
     Y = data.y
     X = data.drop("y", axis=1)

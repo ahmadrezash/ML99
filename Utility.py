@@ -43,6 +43,7 @@ def evaluate(y, y_pred, ModelName, mode):
 
 
 def condition_number(X):
+    X = np.reshape(X, (-1, 1))
     res = np.linalg.cond(X.T @ X)
     return res
 
