@@ -6,7 +6,7 @@ if __name__ == '__main__':
 
     ####### Data 1 #######
     my_model = PolynomialModel(
-        data_path="./data1.csv"
+        data_path="data1.csv"
     )
     for i in range(1, 10):
         my_model.build_run_eval_model(M=i)
@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
     # ####### Data 2 #######
     my_model = PolynomialModel(
-        data_path="./data2.csv"
+        data_path="data2.csv"
     )
     for i in range(1, 10):
         my_model.build_run_eval_model(M=i)
@@ -28,8 +28,8 @@ if __name__ == '__main__':
 
     ####### Data 1 #######
     my_model = PolynomialModel(
-        train_data_path="./data1.csv",
-        test_data_path="./data3.csv"
+        train_data_path="data1.csv",
+        test_data_path="data3.csv"
     )
     for i in range(1, 10):
         my_model.build_run_eval_model(M=i)
@@ -41,8 +41,8 @@ if __name__ == '__main__':
 
     # ####### Data 2 #######
     my_model = PolynomialModel(
-        train_data_path="./data1.csv",
-        test_data_path="./data3.csv"
+        train_data_path="data1.csv",
+        test_data_path="data3.csv"
     )
     for i in range(1, 10):
         my_model.build_run_eval_model(M=i)
@@ -54,8 +54,8 @@ if __name__ == '__main__':
     # Part د
     ####### Data 2 -L1 #######
     my_model = RidgeModel(
-        train_data_path="./data1.csv",
-        test_data_path="./data3.csv"
+        train_data_path="data1.csv",
+        test_data_path="data3.csv"
     )
     start = 10 ** (-7)
     stop = 10 ** (-5)
@@ -70,8 +70,8 @@ if __name__ == '__main__':
 
     ####### Data 2 - L2 #######
     my_model = LassoModel(
-        train_data_path="./data1.csv",
-        test_data_path="./data3.csv"
+        train_data_path="data1.csv",
+        test_data_path="data3.csv"
     )
     start = 10 ** (-7)
     stop = 10 ** (-5)
@@ -89,8 +89,8 @@ if __name__ == '__main__':
 
     ## Part و
     my_model = RidgeCVModel(
-        train_data_path="./data1.csv",
-        test_data_path="./data3.csv"
+        train_data_path="data1.csv",
+        test_data_path="data3.csv"
     )
     start = 10 ** (-7)
     stop = 10 ** (-5)

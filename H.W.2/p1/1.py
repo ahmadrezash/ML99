@@ -1,6 +1,5 @@
 from Utility import *
 import numpy as np
-from matplotlib import pyplot as plt
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn import linear_model

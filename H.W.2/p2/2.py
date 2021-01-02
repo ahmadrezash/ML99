@@ -45,9 +45,6 @@ def PolynomialModel(x: np.array, y: np.array, degree=2):
 
     return pipe
 
-    import pandas as pd
-    import statsmodels.api as sm
-
 
 # define a function for other methods like Polynomial
 
